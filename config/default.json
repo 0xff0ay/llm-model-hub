@@ -1,0 +1,79 @@
+{
+  "llm-hub": {
+    "version": "1.0.0",
+    "defaultProvider": "openai",
+    "defaultModel": "gpt-4o",
+    "temperature": 0.7,
+    "maxTokens": 2048,
+    "topP": 1.0
+  },
+  "providers": {
+    "openai": {
+      "enabled": true,
+      "apiKey": "",
+      "organization": "",
+      "maxRetries": 3,
+      "timeout": 60000
+    },
+    "anthropic": {
+      "enabled": true,
+      "apiKey": "",
+      "maxRetries": 3,
+      "timeout": 60000
+    },
+    "google": {
+      "enabled": true,
+      "apiKey": "",
+      "maxRetries": 3,
+      "timeout": 60000
+    },
+    "azure": {
+      "enabled": false,
+      "apiKey": "",
+      "endpoint": "",
+      "deploymentName": "gpt-4o",
+      "apiVersion": "2024-02-15-preview"
+    },
+    "aws": {
+      "enabled": false,
+      "region": "us-east-1",
+      "accessKeyId": "",
+      "secretAccessKey": ""
+    },
+    "cohere": {
+      "enabled": false,
+      "apiKey": ""
+    },
+    "huggingface": {
+      "enabled": true,
+      "apiKey": ""
+    },
+    "ollama": {
+      "enabled": true,
+      "baseUrl": "http://localhost:11434",
+      "defaultModel": "llama3.1"
+    },
+    "mistral": {
+      "enabled": false,
+      "apiKey": ""
+    },
+    "replicate": {
+      "enabled": false,
+      "apiKey": ""
+    }
+  },
+  "ui": {
+    "theme": "tokyo-night",
+    "fontSize": 14,
+    "fontFamily": "JetBrains Mono, Consolas, monospace"
+  },
+  "storage": {
+    "historyPath": "./data/history",
+    "cachePath": "./data/cache",
+    "promptsPath": "./data/prompts"
+  },
+  "telemetry": {
+    "enabled": false,
+    "endpoint": ""
+  }
+}
