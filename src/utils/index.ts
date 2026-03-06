@@ -19,3 +19,8 @@ export * from './async';
 export * from './input';
 export * from './message';
 export * from './apikey';
+export * from './string';
+export * from './object';
+export * from './array';
+export * from './number';
+export * from './json';
