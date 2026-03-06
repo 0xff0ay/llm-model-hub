@@ -170,3 +170,5 @@ export async function startTUI(config?: TUIConfig): Promise<void> {
   await app.initialize();
   app.run();
 }
+
+
